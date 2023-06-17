@@ -1,8 +1,15 @@
-/dist
 .env
 .DS_Store
 /uploads
 /node_modules
 yarn-error.log
-*.sql
 
+.idea
+
+coverage
+
+!src/**
+
+./tsconfig.tsbuildinfo
+yarn.lock
+medusa-db.sql
