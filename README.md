@@ -145,10 +145,6 @@ curl localhost:9000/store/products
 
 -   NOTE that it's not necessary to seed again while installing the admin dashboard. An error will popup for duplicate data
 
-```
-curl -X GET localhost:9000/store/products
-```
-
 Visit your contentful space and verify that data has been added to your CMS. Your medusa backend & CMS should be in sync.
 
 After the seed script has run you will have the following things in you database:
