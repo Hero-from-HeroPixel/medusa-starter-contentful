@@ -7,7 +7,7 @@
   Medusa Starter Contentful
 </h1>
 <p align="center">
-This repo provides the skeleton to get you started with using <a href="https://github.com/medusajs/medusa">Medusa</a> and Contentful. Follow the steps below to get ready.
+This repo provides the skeleton to get you started with using <a href="https://github.com/medusajs/medusa">Medusa</a> and Contentful CMS. Follow the steps below to get ready.
 </p>
 <p align="center">
   <a href="https://github.com/medusajs/medusa/blob/master/LICENSE">
@@ -131,7 +131,7 @@ http://localhost:9000/health
 
 response should be OK
 
-In a new terminal run:
+In a **new** terminal run:
 
 ```
 npm run seed
@@ -156,6 +156,20 @@ After the seed script has run you will have the following things in you database
 -   a Product called Medusa Waterbottle with 1 Product Variant that all costs 10.00 EUR
 
 Visit [docs.medusa-commerce.com](https://docs.medusa-comerce.com) for further guides.
+
+## **Deployment**
+
+Add deployment instructions
+
+Configure env & config variables
+
+Remove "build" from .gitignore
+
+Run the following command to build the project
+
+```
+npm run build:deploy
+```
 
 ## Thank you!
 
